@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 53px;
+}
+
+h4 {
+  padding: 15px;
+  color: aliceblue;
+  margin-bottom: 25px;
+  background-color: #092521;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.nav-link:active {
+  color: #241c15;
+}
+.nav-link:hover {
+  color: #092521;
+}
+.navbar {
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  color: #9fbcd7;
+}
