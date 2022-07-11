@@ -1,40 +1,49 @@
 .container {
   padding: 20px;
+  max-width: 1100px;
 }
 
 h1 {
   padding-top: 35px;
   padding-bottom: 35px;
-  font-size: 53px;
+  font-size: 40px;
 }
 
 h4 {
   padding: 15px;
-  color: aliceblue;
+  color: #000;
   margin-bottom: 25px;
-  background-color: #092521;
+  background-color: #9fbcd7;
   border-radius: 5px;
+  max-width: 990px;
 }
 
 p {
   font-size: 18px;
 }
 
-img {
+.myPhoto {
   display: block;
-  margin: 0 auto;
+  margin: 0% auto;
+  max-width: 280px;
   border-radius: 50%;
-  max-width: 300px;
 }
 
-.nav-link:active {
-  color: #241c15;
-}
-.nav-link:hover {
-  color: #092521;
-}
-.navbar {
-  margin: 0 auto;
-  padding: 20px 0 20px 0;
+nav {
+  background-color: #092521;
+  font-size: 18px;
   color: #9fbcd7;
+}
+img {
+  display: block;
+  padding: 20px 20px 20px 0;
+  max-width: 500px;
+}
+.col2 li {
+  float: left;
+}
+.col2 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
